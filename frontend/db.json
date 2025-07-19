@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "password": "password456"
+    }
+  ],
+  "weeklyTimesheets": [
+    {
+      "id": 1,
+      "weekNumber": 1,
+      "dateRange": "1 - 5 January, 2024",
+      "status": "COMPLETED",
+      "action": "View"
+    },
+    {
+      "id": 2,
+      "weekNumber": 2,
+      "dateRange": "8 - 12 January, 2024",
+      "status": "COMPLETED",
+      "action": "View"
+    },
+    {
+      "id": 3,
+      "weekNumber": 3,
+      "dateRange": "15 - 19 January, 2024",
+      "status": "INCOMPLETE",
+      "action": "Update"
+    },
+    {
+      "id": 4,
+      "weekNumber": 4,
+      "dateRange": "22 - 26 January, 2024",
+      "status": "COMPLETED",
+      "action": "View"
+    },
+    {
+      "id": 5,
+      "weekNumber": 5,
+      "dateRange": "28 January - 1 February, 2024",
+      "status": "MISSING",
+      "action": "Create"
+    }
+  ],
+  "timesheetEntries": [
+    {
+      "id": 1,
+      "timesheetId": 1,
+      "date": "2025-07-15",
+      "task": "Bug Fixing",
+      "hours": 8
+    },
+    {
+      "id": 2,
+      "timesheetId": 1,
+      "date": "2025-07-16",
+      "task": "Feature Development",
+      "hours": 8
+    }
+  ]
+}
